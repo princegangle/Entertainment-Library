@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import dayjs from "dayjs";
-import { CircleRating, Genres, ContentWrapper, Usefetch, Img, PlayButton, VideoPopup } from '../../../../index.js'
+import { CircleRating, Genres, ContentWrapper, Usefetch, Img, PlayButton, VideoPopup } from '../../../../Index.js'
 
 
 import "./DetailBennre.scss";

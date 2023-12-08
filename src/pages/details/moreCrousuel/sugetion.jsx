@@ -1,5 +1,5 @@
 import React from "react";
-import {Crousuel,Usefetch } from "../../../../index.js"
+import {Crousuel,Usefetch } from "../../../../Index.js"
 
 
 const Sugetion = ({ mediaType, id }) => {

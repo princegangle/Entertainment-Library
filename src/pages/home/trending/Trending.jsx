@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Trending.scss'
 import FecthdatafromApi from '../../../Utils/api.js'
-import {ContentWrapper,SwitchTabs,Usefetch ,Crousuel} from '../../../../index.js'
+import {ContentWrapper,SwitchTabs,Usefetch ,Crousuel} from '../../../../Index.js'
 
 
 

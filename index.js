@@ -21,7 +21,7 @@ import VideoPopup from "./src/components/videofream/VideoFream";
 import Cast from "./src/pages/details/cast/Cast";
 import VideoCrousel from "./src/pages/details/videoCrousel/VideoCrousel";
 import Samethinghs from "./src/pages/details/moreCrousuel/Samethinghs";
-import Sugetion from "./src/pages/details/moreCrousuel/sugetion";
+import Sugetion from "./src/pages/details/moreCrousuel/Sugetion";
 import FecthdatafromApi from "./src/Utils/api";
 import Spinner from "./src/components/spinner/Spinner";
 import MovieCard from "./src/components/moveiCard/MovieCard";

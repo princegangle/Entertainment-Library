@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import './MovieCard.scss';
 
-import {Img,CircleRating,Genres,} from "../../../index.js"
+import {Img,CircleRating,Genres,} from "../../../Index.js"
 
 
 

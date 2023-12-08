@@ -9,7 +9,7 @@ import {
     FaGithub
 } from "react-icons/fa";
 
-import {ContentWrapper} from "../../../index.js"
+import {ContentWrapper} from "../../../Index.js"
 
 
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Details.scss'
-import {Usefetch,DetailsBanner,ContentWrapper,Cast,  VideoCrousel,Samethinghs,Sugetion} from '../../../index.js'
+import {Usefetch,DetailsBanner,ContentWrapper,Cast,  VideoCrousel,Samethinghs,Sugetion} from '../../../Index.js'
 import { useParams } from 'react-router-dom'
 
 

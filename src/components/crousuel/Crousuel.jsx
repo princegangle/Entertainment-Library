@@ -4,7 +4,7 @@ import './Crousuel.scss'
 import React, {useRef} from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useSelector } from 'react-redux'
-import{ContentWrapper,Genres} from "../../../index.js"
+import{ContentWrapper,Genres} from "../../../Index.js"
 import {BsFillArrowLeftCircleFill,BsFillArrowRightCircleFill} from "react-icons/bs"
 import dayjs from 'dayjs'
 import Img from '../lazyLoadimeg/Img.jsx';

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import './Herobenner.scss'
-import { Usefetch, Img, ContentWrapper } from '../../../../index.js'
+import { Usefetch, Img, ContentWrapper } from '../../../../Index.js'
 import { useSelector } from 'react-redux'
 
 
