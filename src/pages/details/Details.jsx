@@ -7,11 +7,7 @@ import Cast from '../details/cast/Cast.jsx'
 import VideoCrousel from '../details/videoCrousel/VideoCrousel.jsx'
 import  Samethinghs from '../details/moreCrousuel/Samethinghs.jsx'
 import Sugetion from '../details/moreCrousuel/Sugetion.jsx'
-
 import { useParams } from 'react-router-dom'
-
-
-
 function Details() {
   const {mediaType,id} = useParams()
   const  {data,loading } = Usefetch(`/${mediaType}/${id}/videos`)
@@ -19,17 +15,12 @@ function Details() {
   return (
   <div>
     <ContentWrapper>
-
-      
     <DetailsBanner video={data?.results?.[0]} crew={credits?.crew}/>
     <Cast data={credits?.cast} loading={creditsLoading}/>
     <  VideoCrousel data={data} loading={loading}/>
     <Samethinghs mediaType={mediaType} id={id}/>
     <Sugetion  mediaType={mediaType} id={id}/>
-    
-
-    </ContentWrapper>
-
+     </ContentWrapper>
   </div>
   
   ) 
