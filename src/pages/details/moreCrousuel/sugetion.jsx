@@ -1,11 +1,8 @@
 import React from "react";
 import Usefetch from "../../../hooks/Usefetch.jsx";
 import Crousuel from "../../../components/crousuel/Crousuel.jsx";
-
-
-
 const Sugetion = ({ mediaType, id }) => {
-    const { data, loading, error } = Usefetch(
+    const { data, loading,  } = Usefetch(
         `/${mediaType}/${id}/recommendations`
     );
 
