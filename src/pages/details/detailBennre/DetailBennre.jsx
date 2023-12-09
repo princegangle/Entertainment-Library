@@ -2,7 +2,14 @@ import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
 import dayjs from "dayjs";
-import { CircleRating, Genres, ContentWrapper, Usefetch, Img, PlayButton, VideoPopup } from '../../../../Index.js'
+import CircleRating from "../../../components/circlerating/Circlerating.jsx";
+import Genres from "../../../components/genres/Genres.jsx";
+import ContentWrapper from "../../../components/contentWrapper/ContentWrapper.jsx";
+import Usefetch from "../../../hooks/Usefetch.jsx";
+import Img  from "../../../components/lazyLoadimeg/Img.jsx";
+import  {PlayButton } from "../../details/PlayButton.jsx";
+import VideoPopup from "../../../components/videofream/VideoFream.jsx";
+
 
 
 import "./DetailBennre.scss";

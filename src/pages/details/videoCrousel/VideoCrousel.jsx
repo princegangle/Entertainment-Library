@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 
 import "./VideoCrousel.scss"
-import {PlayButton,VideoPopup,ContentWrapper,Img} from '../../../../Index.js'
+import VideoPopup from "../../../components/videofream/VideoFream.jsx";
+import  {PlayButton } from "../../details/PlayButton.jsx";
+import ContentWrapper from "../../../components/contentWrapper/ContentWrapper.jsx";
+import Img from "../../../components/lazyLoadimeg/Img.jsx"
+
 
 const VideoCrousel = ({ data, loading }) => {
     const [show, setShow] = useState(false);

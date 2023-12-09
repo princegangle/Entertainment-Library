@@ -2,7 +2,10 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch } from 'react-redux'
 import { useNavigate } from 'react-router-dom'
 import './Herobenner.scss'
-import { Usefetch, Img, ContentWrapper } from '../../../../Index.js'
+import Usefetch from '../../../hooks/Usefetch.jsx'
+import Img from '../../../components/lazyLoadimeg/Img.jsx'
+import ContentWrapper from '../../../components/contentWrapper/ContentWrapper.jsx'
+
 import { useSelector } from 'react-redux'
 
 
@@ -21,6 +24,12 @@ function HeroBener() {
     }
 
   }
+  const SearchQueryHandle = ()=>{
+    
+     return navigate(`search/:${query}`)
+  
+  }
+
 
   useEffect(() => {
     const bg =
@@ -75,8 +84,12 @@ function HeroBener() {
               onKeyUp={SearchQueryHandler}
               placeholder=' Search a movei or tv show'
               onChange={(e) => { SetQuery(e.target.value) }}
-            />
-            <button className='button'>Search</button>
+              />
+            <button
+             className='button'
+             onClick={()=>{SearchQueryHandle()}}
+             >Search</button>
+             
           </div>
         </div>
         </ContentWrapper>

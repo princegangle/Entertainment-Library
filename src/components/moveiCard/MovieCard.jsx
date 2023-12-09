@@ -3,8 +3,11 @@ import dayjs from "dayjs";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import './MovieCard.scss';
+import Img from "../../components/lazyLoadimeg/Img.jsx/";
+import CircleRating from "../circlerating/Circlerating.jsx";
+import Genres from "../genres/Genres.jsx";
 
-import {Img,CircleRating,Genres,} from "../../../Index.js"
+
 
 
 
@@ -16,7 +19,7 @@ const MovieCard = ({ data, fromSearch, mediatype }) => {
     const navigate = useNavigate();
     const posterUrl = data.poster_path
         ? url.poster + data.poster_path
-        : PosterFallback;
+        : <span>not found</span>;
     return (
         <div
             className="movieCard"

@@ -1,13 +1,21 @@
 import FecthdatafromApi from "./Utils/api.js"
-import {
-  Header,
-  Footer,
-  Home,
-  PageNotfound,
-  Explore,
-  Details,
-  Searchresult
-} from '../index.js'
+// import {
+//   Header,
+//   Footer,
+  
+//   PageNotfound,
+//   Explore,
+//   Details,
+//   Searchresult
+// } from '../index.js'
+import Searchresult from "./pages/searchresult/Searchresult.jsx"
+import Details from "./pages/details/Details.jsx";
+import Header from "./components/header/Header.jsx";
+import Footer from "./components/footer/Footer.jsx";
+import Home from "./pages/home/Home.jsx";
+import PageNotfound from "./pages/404/PageNotfound.jsx";
+import Explore from "./pages/explore/Explore.jsx";
+
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import React, { useState, useEffect } from "react"
 import { useSelector, useDispatch } from "react-redux";

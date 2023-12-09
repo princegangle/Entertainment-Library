@@ -1,6 +1,13 @@
 import React from 'react'
 import './Details.scss'
-import {Usefetch,DetailsBanner,ContentWrapper,Cast,  VideoCrousel,Samethinghs,Sugetion} from '../../../Index.js'
+import Usefetch from '../../hooks/Usefetch.jsx'
+import DetailsBanner from '../details/detailBennre/DetailBennre.jsx'
+import ContentWrapper from '../../components/contentWrapper/ContentWrapper.jsx'
+import Cast from '../details/cast/Cast.jsx'
+import VideoCrousel from '../details/videoCrousel/VideoCrousel.jsx'
+import  Samethinghs from '../details/moreCrousuel/Samethinghs.jsx'
+import Sugetion from '../details/moreCrousuel/Sugetion.jsx'
+
 import { useParams } from 'react-router-dom'
 
 

@@ -1,6 +1,9 @@
 import React,{useState,useEffect} from 'react'
 import './Searchresult.scss'
-import { ContentWrapper,Crousuel,Spinner ,MovieCard} from "../../../Index.js"
+import ContentWrapper from '../../components/contentWrapper/ContentWrapper.jsx'
+import Spinner from '../../components/spinner/Spinner.jsx'
+import MovieCard from '../../components/moveiCard/MovieCard.jsx'
+
 import { useParams } from 'react-router-dom'
 import InfiniteScroll from 'react-infinite-scroll-component'
 import FecthdatafromApi from "../../Utils/api.js"

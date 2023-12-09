@@ -1,15 +1,16 @@
 import React from 'react'
 import './Footer.scss'
+import ContentWrapper from '../../components/contentWrapper/ContentWrapper.jsx'
 
 import {
-    FaFacebookF,
+   
     FaGlobe,
     FaTwitter,
     FaLinkedin,
     FaGithub
 } from "react-icons/fa";
 
-import {ContentWrapper} from "../../../Index.js"
+
 
 
 
